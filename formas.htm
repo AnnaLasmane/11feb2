@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <div>
+            <label for="name-input-field">Name:</label>
+            <input type="text" id="name-input-field" value="same name" name="name">
+        </div>
+
+        <div>
+            <label for="password-input-field">Password:</label>
+            <input type="password" id="password-input-field" value="foo" placeholder="Password:" name="password"> 
+        </div>
+
+        <div>
+            <input type="hidden" name="checkbox" value="0"> 
+            <input type="checkbox" id="agree-checkbox" name="checkbox" value="1"> 
+            <label for="agree-checkbox">Agree with terms and conditions</label>
+        </div>
+        <div>
+            <input type="checkbox" id="news-checkbox" checked>
+            <label for="news-checkbox">Newsletter</label>
+        </div>
+
+        <div>
+            <h5> Gender:</h5>
+            <div>
+                <input type="radio" id="gender-female" name="gander" value="female">
+                <label for="gender-female"> Female</label>
+            </div>
+
+            <div>
+                <input type="radio" id="gender-male" name="gander" checked value="male">
+                <label for="gender-male">Male</label>
+            </div>
+
+            <div>
+                <input type="radio" id="gender-dn" name="gander" value="idn">
+                <label for="gender-dn">Dont know</label>
+            </div>
+
+
+            <div>
+                <label for="country-select">Country:</label>
+                <select id="country-select" name="country"> 
+
+                    <option value="">Select one...</option>
+
+                    <optgroup label="Baltics">
+
+                        <option value="lv">Latvia</option>
+                        <option value="lt">Lietuva</option>
+                        <option selected value="ee">Igaunija</option>
+
+                    </optgroup>
+                </select>
+
+                <div>
+                    <label for="comment-text">Comment:</label>
+                    <textarea id="" cols="50" rows="5" name="comment">text       text text</textarea>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="pieteikties">
+<button><em>foo</em></button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
